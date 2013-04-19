@@ -5,6 +5,8 @@
   <property name="lib.dir"                        value="./webapp/WEB-INF/lib" />
   <property name="bean.def.xml"                   value="./etc/beanDef/beanDef.xml" />
 
+  <property name="do.not.use.makeSchemaAccessor"  value="true" /><!-- DBスキップ --> 
+	
   <import file="../framework/build-common.xml" />
   <property name="hibernate.fileset.dirs"         value="${src.dir};../framework/src/java" />
 

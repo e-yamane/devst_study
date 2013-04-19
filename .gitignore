@@ -4,4 +4,4 @@ src/java/log4j.properties
 src/java/messageResource.properties
 test/*
 webapp/WEB-INF/classes
-*/.*.swp
+.*.swp
